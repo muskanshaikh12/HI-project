@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.banner-section {
+  background-color: rgba(178, 222, 236, 0.226);
+}
+
+/* Banner section css */
+.banner-header5 {
+  font-family: "Raleway", sans-serif;
+  margin: 0 0 5px;
+  font-size: 15px;
+  color: #00af42;
+  line-height: 1.08;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.banner-header1 {
+  font-family: "Playfair Display", serif;
+  color: #2f2f2f;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+.img1 {
+  width: 100%;
+}
+.btn {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  background-color: #00af42;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin: 25px 0px 0px;
+}
+.banner-top {
+  margin-top: 60px;
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 10px 0;
+  list-style-type: none;
+}
+li {
+  margin: 0px 5px;
+}
+button {
+  display: block;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  background-color: rgba(128, 128, 128, 0.11);
+  text-indent: -9999px;
+}
+li.slick-active button {
+  background-color: rgba(26, 231, 26, 0.904);
+}
+
+/* Benefits section css */
+.benefits-section {
+  background-color: #f4f6ef;
+  padding-top: 70px;
+}
+.benefits-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+.circle {
+  height: 375px;
+  width: 375px;
+  border-radius: 100%;
+  background-color: #00af42;
+  opacity: 0.06;
+  filter: blur(30px);
+  position: absolute;
+}
+.circle-left {
+  top: 50px;
+  left: -100px;
+}
+.circle-right {
+  bottom: 50px;
+  right: -100px;
+}
+.benefits-header6 {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #00af42;
+  line-height: 1.08;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.benefits-img {
+  width: 100%;
+}
+
+.benefits-icon {
+  margin: 0px auto 10px auto;
+  width: 78px;
+  height: 78px;
+}
+.benefits-header2 {
+  font-family: "Playfair Display", serif;
+  color: #2f2f2f;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+.benefits-para {
+  margin-top: 20px 0px 0px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #525252;
+}
+.benefits-content h6 {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #2f2f2f;
+  line-height: 1.15;
+  margin-bottom: 8px;
+}
+.benefits-content p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #525252;
+}
+.circle-img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+}
+.healthy-img {
+  width: 100%;
+}
+.circle-border {
+  position: absolute;
+  height: 920px;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: 100%;
+  z-index: 0;
+  border: 1px solid rgba(152, 197, 47, 0.46);
+}
+.benefits-list {
+  text-align: center;
+  margin: 80px 40px;
+  padding-bottom: 190px;
+  max-width: 25%;
+}
+/* .benefits-sub-list :not(:last-of-type) {
+  margin-bottom: 50px;
+} */
+.benefits-sub-list:nth-child(1) {
+  left: -37px;
+  bottom: -100px;
+}
+.benefits-sub-list:nth-child(2) {
+  left: 199px;
+  bottom: 230px;
+}
+.benefits-sub-list:nth-child(3) {
+  right: -505px;
+  bottom: 457px;
+}
+.benefits-sub-list:nth-child(4) {
+  right: -765px;
+  bottom: 575px;
+}
+img {
+  max-width: 100%;
+}
+
+/* Responsive style */
+
+@media (max-width: 1024px) {
+  .benefits-icon {
+    width: 80px;
+  }
+  .benefits-content p {
+    font-size: 10px;
+  }
+  .benefits-list {
+    margin-top: 80px;
+  }
+  .benefits-sub-list:nth-child(1) {
+    left: -14px;
+    bottom: -79px;
+  }
+  .benefits-sub-list:nth-child(2) {
+    left: 209px;
+    bottom: 202px;
+  }
+  .benefits-sub-list:nth-child(3) {
+    right: -490px;
+    bottom: 366px;
+  }
+  .benefits-sub-list:nth-child(4) {
+    right: -667px;
+    bottom: 437px;
+  }
+}
+@media (max-width: 992px) {
+  .banner-header1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-header1 {
+    font-size: 34px;
+  }
+  .banner-text {
+    padding: 10px;
+  }
+  .circle-border {
+    display: none;
+  }
+  .benefits-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 160px;
+    max-width: 100%;
+    column-gap: 30px;
+  }
+  .benefits-sub-list:nth-child(1) {
+    left: 0;
+    bottom: 0;
+  }
+  .benefits-sub-list:nth-child(2) {
+    left: 0;
+    bottom: 0;
+  }
+  .benefits-sub-list:nth-child(3) {
+    right: 0;
+    bottom: 0;
+  }
+  .benefits-sub-list:nth-child(4) {
+    right: 0;
+    bottom: 0;
+  }
+  .circle-img {
+    top: auto;
+  }
+}
+@media (max-width: 425px) {
+  .banner-header1 {
+    font-size: 25px;
+  }
+  .banner-text {
+    padding: 10px;
+  }
+  .benefits-header2 {
+    font-size: 25px;
+  }
+  .benefits-para {
+    font-size: 14px;
+  }
+  .benefits-list {
+    grid-template-columns: 1fr;
+  }
+} ;
